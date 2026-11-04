@@ -14,7 +14,7 @@
     margin-bottom: 62px;
 }
 
-.containerbig {
+.container-big {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -75,7 +75,7 @@ body {
 
 /* Buttons */
 
-.buttonlogin {
+.button-login {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -85,7 +85,7 @@ body {
     border-radius: 12px;
 }
 
-.buttonstart {
+.button-start {
     display: flex;
     max-width: 214px;
     background-color: #CEAAFF;
@@ -120,7 +120,7 @@ body {
     justify-content: center;
 }
 
-.actualarrow {
+.actual-arrow {
     height: 20px;
     width: 20px;
 }
@@ -135,7 +135,7 @@ body {
     text-align: center;
 }
 
-.examplegroup {
+.example-group {
     display: flex;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -144,7 +144,7 @@ body {
     justify-content: center;
 }
 
-.exampleitem {
+.example-item {
     background-color: #182632;
     padding: 10px;
     border-radius: 20px;
@@ -179,7 +179,7 @@ body {
     color: #707F8D;
 }
 
-.projectimage {
+.project-image {
     height: 300px;
     width: 700px;
     margin-top: 20px;
@@ -192,7 +192,7 @@ body {
     justify-content: center;
 }
 
-.imageexample {
+.image-example {
     display: flex;
     background-color: #FFB4D3;
     max-width: 250px;
@@ -209,7 +209,7 @@ body {
 
 /* Different Projects */
 
-.differentprojects {
+.different-projects {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,7 +221,7 @@ body {
     font-size: small;
 }
 
-.coloredprojects {
+.colored-projects {
     font-family: "Lato", sans-serif;
     display: flex;
     flex-direction: column;
@@ -236,7 +236,7 @@ body {
 
 /* Compatible Items */
 
-.compatiblethings {
+.compatible-things {
     display: flex;
     justify-content: center;
     margin-top: 80px;
@@ -245,7 +245,7 @@ body {
     align-items: center;
 }
 
-.compatibleitems {
+.compatible-items {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -256,7 +256,7 @@ body {
     max-width: 700px;
 }
 
-.imagecompatible {
+.image-compatible {
     background-color: #121E28;
     height: 100px;
     width: 100px;
@@ -271,7 +271,7 @@ body {
 
 /* Helpers */
 
-.helperstext {
+.helpers-text {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     text-align: center;
@@ -352,7 +352,7 @@ body {
     font-weight: 600;
 }
 
-input[type="email"] {
+input[class="email-post"] {
     border: 1px solid #2A3744;
     background-color: #121E28;
     color: #3D4C5B;
@@ -371,13 +371,13 @@ input[type="email"] {
     margin-top: 100px;
 }
 
-.pressrow {
+.press-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.pressrow div {
+.press-row div {
     color: #8395A7;
 }
 
@@ -446,7 +446,7 @@ input[type="email"] {
     margin-top: 150px;
 }
 
-.podcastspace {
+.podcast-space {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -456,17 +456,17 @@ input[type="email"] {
     min-height: 220px;
 }
 
-.podcastspace>section:last-child {
+.podcast-space>section:last-child {
     margin-top: auto;
 }
 
-.podcasttop {
+.podcast-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.podcasttop div {
+.podcast-top div {
     color: #8395A7;
 }
 
@@ -492,21 +492,21 @@ input[type="email"] {
     border: 2px solid #2A3744;
 }
 
-.podcastsmall {
+.podcast-small {
     font-size: small;
     margin-top: 20px;
     color: #B9BBBD;
 
 }
 
-.podcastsmaller {
+.podcast-smaller {
     font-size: small;
     color: #B9BBBD;
 }
 
 /* Goose Idea */
 
-.gooseidea {
+.goose-idea {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     margin-top: 150px;
@@ -539,13 +539,13 @@ input[type="email"] {
     margin-right: 10px;
 }
 
-.telegramteam {
+.telegram-team {
     display: flex;
     flex-direction: column;
     color: #4D3705;
 }
 
-.superdaoteam {
+.superdao-team {
     font-size: small;
     opacity: 70%;
 }
@@ -567,16 +567,16 @@ input[type="email"] {
     margin-right: 10px;
 }
 
-.emailteam {
+.email-team {
     color: #40354B;
 }
 
-.hellosuperdao {
+.hello-superdao {
     opacity: 70%;
     font-size: small;
 }
 
-.goosehelp {
+.goose-help {
     display: flex;
     flex-direction: row;
     margin: 0% auto;
@@ -602,18 +602,18 @@ input[type="email"] {
     align-items: center;
 }
 
-.footerlink {
+.footer-link {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-.footerimage {
+.footer-image {
     display: flex;
     gap: 10px;
 }
 
-.footerimage img {
+.footer-image img {
     width: 40px;
     height: 40px;
 }
@@ -627,12 +627,12 @@ input[type="email"] {
     text-align: center;
 }
 
-.titlehero {
+.title-hero {
     font-size: 15px;
     font-weight: normal;
 }
 
-.herodescription {
+.hero-description {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -705,7 +705,7 @@ input[type="email"] {
     opacity: 1;
 }
 
-.emailpost {
+.email-post {
     margin-top: 25px;
 }
 
